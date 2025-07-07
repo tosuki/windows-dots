@@ -10,8 +10,11 @@ A bunch of scripts and configurations to make windows at least decent for progra
 5. Use Vim as your text editor. It is a powerful and efficient text editor that is widely used by programmers. You can find more information about Vim [here](https://www.vim.org/).
     * If you are new to Vim, I recommend using the [Vim Adventures](https://vim-adventures.com/) game to learn the basics of Vim in a fun way.
     * With Vim, you can code from a ssh session easily, and you can use it in any terminal emulator, including Windows Terminal.
-6. Learn komorebi shortcuts, press `Alt+i` to see the shortcuts. Komorebi is a tiling window manager for Windows that allows you to manage your windows efficiently. You can find more information about Komorebi [here](
+6. Learn komorebi shortcuts, press `Alt+i` to see the shortcuts. Komorebi is a tiling window manager for Windows that allows you to manage your windows efficiently. You can find more information about Komorebi [here](https://lgug2z.github.io/komorebi/).
+7. Avoid running docker containers on local machine without WSL or VM. Docker is a powerful tool for running applications in containers, but it is not recommended to run it directly on Windows without WSL (Windows Subsystem for Linux) or a virtual machine. This is because Docker requires a Linux kernel to run, and running it directly on Windows can lead to performance issues and compatibility problems. Instead, use WSL or a VM to run Docker containers.
+8. Use WSL (Windows Subsystem for Linux) for running Linux applications on Windows. WSL allows you to run a Linux distribution alongside your Windows installation, providing a seamless experience for running Linux applications. You can find more information about WSL [here](https://docs.microsoft.com/en-us/windows/wsl/).
 
+This is all, have fun with your new setup!
 
 
 ## Usage
