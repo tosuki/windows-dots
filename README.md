@@ -40,3 +40,24 @@ This repository contains the following configuration files:
 - `komorebi.json`: Configuration for the Komorebi tiling window manager.
 - `.config`: Contains various configurations for different applications.
 - `terminal/settings.json`: Configuration for the Windows Terminal.
+
+## OpenSSH Setup
+
+This repository includes a PowerShell script (`install_openssh.ps1`) to automate the installation and configuration of OpenSSH on Windows 11.
+
+**Important:** This script should be run *after* you have set up your Scoop packages and configuration files, as it relies on a stable environment.
+
+To run the script:
+
+1. Open PowerShell as an **Administrator**.
+2. Navigate to the directory where you cloned this repository.
+3. Execute the script:
+   ```powershell
+   .\install_openssh.ps1
+   ```
+
+This script will:
+- Check if OpenSSH Server and Client are installed and install them if not.
+- Configure the `sshd` service to start automatically.
+- Start the `sshd` service.
+- Configure Windows Firewall to allow incoming connections on port 22 for OpenSSH.
