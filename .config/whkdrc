@@ -11,9 +11,6 @@ alt + i                 : komorebic toggle-shortcuts
 # The apps will be focused if open, or launched if not open
 # alt + f                 : if ($wshell.AppActivate('Firefox') -eq $False) { start firefox }
 # alt + b                 : if ($wshell.AppActivate('Chrome') -eq $False) { start chrome }
-alt + shift + b 		: qutebrowser.exe
-alt + shift + p            : powershell.exe
-
 alt + q                 : komorebic close
 alt + m                 : komorebic minimize
 
@@ -30,16 +27,6 @@ alt + shift + left         : komorebic move left
 alt + shift + down         : komorebic move down
 alt + shift + up         : komorebic move up
 alt + shift + right             : komorebic move right
-alt + shift + return    : komorebic promote
-
-# Stack windows
-#alt + left              : komorebic stack left
-#alt + down              : komorebic stack down
-#alt + up                : komorebic stack up
-#alt + right             : komorebic stack right
-#alt + oem_1             : komorebic unstack # oem_1 is ;
-#alt + oem_4             : komorebic cycle-stack previous # oem_4 is [
-#alt + oem_6             : komorebic cycle-stack next # oem_6 is ]
 
 # Resize
 alt + oem_plus          : komorebic resize-axis horizontal increase
