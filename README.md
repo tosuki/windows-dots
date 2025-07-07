@@ -61,3 +61,22 @@ This script will:
 - Configure the `sshd` service to start automatically.
 - Start the `sshd` service.
 - Configure Windows Firewall to allow incoming connections on port 22 for OpenSSH.
+
+## Oh My Posh Setup
+
+This repository includes a PowerShell script (`install_oh_my_posh.ps1`) to automate the installation and configuration of Oh My Posh, a custom prompt engine for your terminal.
+
+**Important:** This script should be run *after* you have set up your Scoop packages and configuration files, as it relies on a stable environment.
+
+To run the script:
+
+1. Open PowerShell as an **Administrator**.
+2. Navigate to the directory where you cloned this repository.
+3. Execute the script:
+   ```powershell
+   .\install_oh_my_posh.ps1
+   ```
+
+This script will:
+- Install Oh My Posh.
+- Configure your PowerShell profile to use a custom Oh My Posh theme.
