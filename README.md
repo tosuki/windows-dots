@@ -80,3 +80,97 @@ To run the script:
 This script will:
 - Install Oh My Posh.
 - Configure your PowerShell profile to use a custom Oh My Posh theme.
+
+
+## Keybinds
+
+### Reload whkd configuration
+
+| Keybind | Description |
+|---|---|
+| `alt + o` | taskkill /f /im whkd.exe; Start-Process whkd -WindowStyle hidden |
+| `alt + shift + o` | komorebic reload-configuration |
+
+### General
+
+| Keybind | Description |
+|---|---|
+| `alt + i` | komorebic toggle-shortcuts |
+| `alt + q` | komorebic close |
+| `alt + m` | komorebic minimize |
+
+### Focus windows
+
+| Keybind | Description |
+|---|---|
+| `alt + left` | komorebic focus left |
+| `alt + down` | komorebic focus down |
+| `alt + up` | komorebic focus up |
+| `alt + right` | komorebic focus right |
+| `alt + shift + oem_4` | oem_4 is [ |
+| `alt + shift + oem_6` | oem_6 is ] |
+
+### Move windows
+
+| Keybind | Description |
+|---|---|
+| `alt + shift + left` | komorebic move left |
+| `alt + shift + down` | komorebic move down |
+| `alt + shift + up` | komorebic move up |
+| `alt + shift + right` | komorebic move right |
+
+### Resize
+
+| Keybind | Description |
+|---|---|
+| `alt + oem_plus` | komorebic resize-axis horizontal increase |
+| `alt + oem_minus` | komorebic resize-axis horizontal decrease |
+| `alt + shift + oem_plus` | komorebic resize-axis vertical increase |
+| `alt + shift + oem_minus` | komorebic resize-axis vertical decrease |
+
+### Manipulate windows
+
+| Keybind | Description |
+|---|---|
+| `alt + t` | komorebic toggle-float |
+| `alt + shift + f` | komorebic toggle-monocle |
+
+### Window manager options
+
+| Keybind | Description |
+|---|---|
+| `alt + shift + r` | komorebic retile |
+| `alt + p` | komorebic toggle-pause |
+
+### Layouts
+
+| Keybind | Description |
+|---|---|
+| `alt + x` | komorebic flip-layout horizontal |
+| `alt + y` | komorebic flip-layout vertical |
+
+### Workspaces
+
+| Keybind | Description |
+|---|---|
+| `alt + 1` | komorebic focus-workspace 0 |
+| `alt + 2` | komorebic focus-workspace 1 |
+| `alt + 3` | komorebic focus-workspace 2 |
+| `alt + 4` | komorebic focus-workspace 3 |
+| `alt + 5` | komorebic focus-workspace 4 |
+| `alt + 6` | komorebic focus-workspace 5 |
+| `alt + 7` | komorebic focus-workspace 6 |
+| `alt + 8` | komorebic focus-workspace 7 |
+
+### Move windows across workspaces
+
+| Keybind | Description |
+|---|---|
+| `alt + shift + 1` | komorebic move-to-workspace 0 |
+| `alt + shift + 2` | komorebic move-to-workspace 1 |
+| `alt + shift + 3` | komorebic move-to-workspace 2 |
+| `alt + shift + 4` | komorebic move-to-workspace 3 |
+| `alt + shift + 5` | komorebic move-to-workspace 4 |
+| `alt + shift + 6` | komorebic move-to-workspace 5 |
+| `alt + shift + 7` | komorebic move-to-workspace 6 |
+| `alt + shift + 8` | komorebic move-to-workspace 7 |

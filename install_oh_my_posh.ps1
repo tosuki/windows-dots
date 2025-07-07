@@ -18,6 +18,6 @@ Write-Host "Configuring Oh My Posh in PowerShell profile..."
 
 Write-Host "Creating PowerShell profile"
 New-Item -Path $profile -Type File -Force
-wget https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/jandedobbeleer.omp.json -O $HOME\Documents\WindowsPowerShell\jandedobbeleer.omp.json
-Add-Content -Path "$HOME/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1" 'oh-my-posh init pwsh --config $HOME\Documents\WindowsPowerShell\jandedobbeleer.omp.json | Invoke-Expression'
+wget https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/huvix.omp.json -O $HOME\Documents\WindowsPowerShell\huvix.omp.json
+Add-Content -Path "$HOME/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1" 'oh-my-posh init pwsh --config $HOME\Documents\WindowsPowerShell\huvix.omp.json | Invoke-Expression'
 
